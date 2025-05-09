@@ -1,0 +1,44 @@
+🔧 System & Performance Monitoring
+htop – Interactive process viewer (better top)
+
+glances – Real-time system monitoring with more stats
+
+iotop – Disk I/O usage per process
+
+nmon – Full system performance monitoring
+
+💻 Command-Line Productivity
+tmux – Terminal multiplexer for managing multiple sessions
+
+fzf – Fuzzy finder for files, command history, etc.
+
+ripgrep (rg) – Fast searching across files (alternative to grep)
+
+bat – cat with syntax highlighting and Git integration
+
+🗃️ Package & File Management
+apt / dnf / pacman – Native package managers
+
+rsync – Fast and versatile file copy/sync tool
+
+ncdu – Disk usage analyzer with a TUI
+
+tree – Visual directory structure display
+
+🌐 Networking & Security
+nmap – Network scanning and security auditing
+
+netstat / ss – View open ports and socket connections
+
+tcpdump – Packet capture and analysis
+
+fail2ban – Automatically blocks suspicious login attempts
+
+🔐 Development & Automation
+git – Distributed version control system
+
+cron / systemd timers – Task scheduling
+
+curl / wget – Command-line web requests
+
+Ansible – IT automation and configuration management

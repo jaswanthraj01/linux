@@ -1,0 +1,63 @@
+🐧 Project: "Linux Survival Kit" – Essential Bash Scripts for Daily Use
+🧠 Objective
+Create a collection of small, useful Bash scripts to automate common Linux tasks. This helps users improve their scripting skills and system automation knowledge.
+
+📁 Project Structure
+Copy
+Edit
+linux-survival-kit/
+├── scripts/
+│   ├── backup_home.sh
+│   ├── system_info.sh
+│   ├── cleanup.sh
+│   ├── user_audit.sh
+│   └── monitor_disk.sh
+├── README.md
+└── LICENSE
+📜 Script Examples
+backup_home.sh – Backs up the user’s home directory to a compressed .tar.gz file.
+
+system_info.sh – Displays CPU, memory, disk, and uptime information.
+
+cleanup.sh – Clears cache, unused packages, and system logs.
+
+user_audit.sh – Lists all system users and checks for inactive or locked accounts.
+
+monitor_disk.sh – Monitors disk usage and sends a warning if usage exceeds a threshold.
+
+📌 Sample Script: system_info.sh
+bash
+Copy
+Edit
+#!/bin/bash
+
+echo "===== System Info ====="
+echo "Hostname: $(hostname)"
+echo "Uptime: $(uptime -p)"
+echo "CPU Load: $(top -bn1 | grep "load average" | awk '{print $10 $11 $12}')"
+echo "Memory Usage:"
+free -h
+echo "Disk Usage:"
+df -h
+🛠 How to Use
+In README.md:
+
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/yourusername/linux-survival-kit.git
+cd linux-survival-kit/scripts
+
+# Make a script executable
+chmod +x system_info.sh
+
+# Run it
+./system_info.sh
+📖 Educational Value
+Teaches Bash basics (loops, conditions, variables)
+
+Covers real-world Linux admin tasks
+
+Encourages safe scripting practices (e.g., using quotes, checking input)
+
